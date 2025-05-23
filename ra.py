@@ -346,7 +346,7 @@ if __name__ == "__main__":
             historical_cor_data=data_values,
             expected_cor_basis='fixed',
             fixed_expected_cor_value=current_data_mean,
-            manual_dist_choice='weibull_min' # 自动选择
+            manual_dist_choice='gamma' # 自动选择
         )
         if results_s1: all_results_summary.append(results_s1)
 
@@ -359,7 +359,7 @@ if __name__ == "__main__":
             dataset_name=name,
             historical_cor_data=data_values,
             expected_cor_basis='mean',
-            manual_dist_choice='weibull_min'
+            manual_dist_choice='gamma'
         )
         if results_s2: all_results_summary.append(results_s2)
 
@@ -369,7 +369,7 @@ if __name__ == "__main__":
             dataset_name=name,
             historical_cor_data=data_values,
             expected_cor_basis='mode',
-            manual_dist_choice='weibull_min'
+            manual_dist_choice='gamma'
         )
         if results_s3: all_results_summary.append(results_s3)
 
