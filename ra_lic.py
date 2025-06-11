@@ -451,7 +451,7 @@ if __name__ == '__main__':
     pd.set_option('display.max_colwidth', None)
 
     EXCEL_FILE_PATH = "202412三角形.xlsx"
-    SHEET_NAME = "商业三者"
+    SHEET_NAME = "财产险"
 
     try:
         df_sheet_data = pd.read_excel(EXCEL_FILE_PATH, sheet_name=SHEET_NAME, header=None, dtype=str)
